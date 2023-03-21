@@ -10,6 +10,12 @@ aiming to address the challenges of the analysis of the European Marine Omics Bi
 Here we show visual components accompanying the metaGOflow publication (cite). 
 We performed all steps of metaGOflow for a marine sediment (ERR) and a water column (ERR) samples. 
 
+* To have an overview on the metaGOflow results for the marine sample you may click [Link to another page](./marine-sediment.html).
+
+
+* For the water column sample, you may have a look [here](./)
+
+
 metaGOflow returns a quality control of the raw data: 
 
 * For the sediment sample:
@@ -33,8 +39,13 @@ As long as our sequences seem good enough, we can investigate the taxonomic inve
 <iframe src="https://rawcdn.githack.com/hariszaf/metaGOflow-use-case/291c5cc4a28dca7a4c2344753e9f85d15ccf68fc/assets/htmls/taxonomic_inventories_water.html" style="width:200%; height:900px;" ></iframe>
 
 
+
+In the follow
+
+
+
 <div style="height: 150px; overflow: auto">
-  <table style="height: 400px">
+  <table style="width:200%; height:900px;">
     <tr>
         <td>119800</td>
         <td>IPR003439</td>
@@ -52129,7 +52140,7 @@ As long as our sequences seem good enough, we can investigate the taxonomic inve
 </div>
 
 
-[Link to another page](./another-page.html).
+
 
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
