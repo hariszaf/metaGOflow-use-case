@@ -52127,10 +52127,723 @@ On the first column we get the number of hits an id had among the reads, on the 
   </table>
 </div>
 
+</br>
+
+
+#### GO-slim 
+
+GO slim is a cut-down version of the GO ontologies that contain only a subset of terms from the GO resource. metaGOflow provides both a full GO annotation which is not displayed here as it is rather long and a slim version like the one shown here for the sediment case.
+On the first column there is the GO id, 
+on the second its description, 
+on the third its the GO ontology it belogs to (biological process, cellular component, molecular function) and on the fourth one
+we have the number of hits of the annotation on the reads.
+
+<div style="width:200%; height:900px; overflow: auto">
+<table>
+    <tr>
+        <td>GO:0008150</td>
+        <td>biological process</td>
+        <td>biological_process</td>
+        <td>38851</td>
+    </tr>
+    <tr>
+        <td>GO:0071973</td>
+        <td>bacterial-type flagellar cell motility</td>
+        <td>biological_process</td>
+        <td>5498</td>
+    </tr>
+    <tr>
+        <td>GO:0071840</td>
+        <td>cellular component organization or biogenesis</td>
+        <td>biological_process</td>
+        <td>67937</td>
+    </tr>
+    <tr>
+        <td>GO:0071103</td>
+        <td>DNA conformation change</td>
+        <td>biological_process</td>
+        <td>58455</td>
+    </tr>
+    <tr>
+        <td>GO:0045454</td>
+        <td>cell redox homeostasis</td>
+        <td>biological_process</td>
+        <td>7694</td>
+    </tr>
+    <tr>
+        <td>GO:0065003</td>
+        <td>macromolecular complex assembly</td>
+        <td>biological_process</td>
+        <td>6748</td>
+    </tr>
+    <tr>
+        <td>GO:0016226</td>
+        <td>iron-sulfur cluster assembly</td>
+        <td>biological_process</td>
+        <td>19524</td>
+    </tr>
+    <tr>
+        <td>GO:0017004</td>
+        <td>cytochrome complex assembly</td>
+        <td>biological_process</td>
+        <td>14779</td>
+    </tr>
+    <tr>
+        <td>GO:0008152</td>
+        <td>metabolic process</td>
+        <td>biological_process</td>
+        <td>133615</td>
+    </tr>
+    <tr>
+        <td>GO:0008218</td>
+        <td>bioluminescence</td>
+        <td>biological_process</td>
+        <td>415</td>
+    </tr>
+    <tr>
+        <td>GO:0009058</td>
+        <td>biosynthetic process</td>
+        <td>biological_process</td>
+        <td>864532</td>
+    </tr>
+    <tr>
+        <td>GO:0017000</td>
+        <td>antibiotic biosynthetic process</td>
+        <td>biological_process</td>
+        <td>4181</td>
+    </tr>
+    <tr>
+        <td>GO:0009403</td>
+        <td>toxin biosynthetic process</td>
+        <td>biological_process</td>
+        <td>2096</td>
+    </tr>
+    <tr>
+        <td>GO:0006259</td>
+        <td>DNA metabolic process</td>
+        <td>biological_process</td>
+        <td>260310</td>
+    </tr>
+    <tr>
+        <td>GO:0016070</td>
+        <td>RNA metabolic process</td>
+        <td>biological_process</td>
+        <td>305843</td>
+    </tr>
+    <tr>
+        <td>GO:0006351</td>
+        <td>transcription, DNA-templated</td>
+        <td>biological_process</td>
+        <td>117124</td>
+    </tr>
+    <tr>
+        <td>GO:0005975</td>
+        <td>carbohydrate metabolic process</td>
+        <td>biological_process</td>
+        <td>259282</td>
+    </tr>
+    <tr>
+        <td>GO:0006091</td>
+        <td>generation of precursor metabolites and energy</td>
+        <td>biological_process</td>
+        <td>123087</td>
+    </tr>
+    <tr>
+        <td>GO:0006629</td>
+        <td>lipid metabolic process</td>
+        <td>biological_process</td>
+        <td>140116</td>
+    </tr>
+    <tr>
+        <td>GO:0015948</td>
+        <td>methanogenesis</td>
+        <td>biological_process</td>
+        <td>9260</td>
+    </tr>
+    <tr>
+        <td>GO:0006807</td>
+        <td>nitrogen compound metabolic process</td>
+        <td>biological_process</td>
+        <td>737356</td>
+    </tr>
+    <tr>
+        <td>GO:0016310</td>
+        <td>phosphorylation</td>
+        <td>biological_process</td>
+        <td>77434</td>
+    </tr>
+    <tr>
+        <td>GO:0015979</td>
+        <td>photosynthesis</td>
+        <td>biological_process</td>
+        <td>50385</td>
+    </tr>
+    <tr>
+        <td>GO:0006508</td>
+        <td>proteolysis</td>
+        <td>biological_process</td>
+        <td>129948</td>
+    </tr>
+    <tr>
+        <td>GO:0044281</td>
+        <td>small molecule metabolic process</td>
+        <td>biological_process</td>
+        <td>894090</td>
+    </tr>
+    <tr>
+        <td>GO:0006412</td>
+        <td>translation</td>
+        <td>biological_process</td>
+        <td>408914</td>
+    </tr>
+    <tr>
+        <td>GO:0007155</td>
+        <td>cell adhesion</td>
+        <td>biological_process</td>
+        <td>6851</td>
+    </tr>
+    <tr>
+        <td>GO:0006457</td>
+        <td>protein folding</td>
+        <td>biological_process</td>
+        <td>33803</td>
+    </tr>
+    <tr>
+        <td>GO:0007165</td>
+        <td>signal transduction</td>
+        <td>biological_process</td>
+        <td>17005</td>
+    </tr>
+    <tr>
+        <td>GO:0000160</td>
+        <td>phosphorelay signal transduction system</td>
+        <td>biological_process</td>
+        <td>46163</td>
+    </tr>
+    <tr>
+        <td>GO:0009607</td>
+        <td>response to biotic stimulus</td>
+        <td>biological_process</td>
+        <td>190</td>
+    </tr>
+    <tr>
+        <td>GO:0009628</td>
+        <td>response to abiotic stimulus</td>
+        <td>biological_process</td>
+        <td>1251</td>
+    </tr>
+    <tr>
+        <td>GO:0042221</td>
+        <td>response to chemical</td>
+        <td>biological_process</td>
+        <td>5201</td>
+    </tr>
+    <tr>
+        <td>GO:0006950</td>
+        <td>response to stress</td>
+        <td>biological_process</td>
+        <td>95131</td>
+    </tr>
+    <tr>
+        <td>GO:0009372</td>
+        <td>quorum sensing</td>
+        <td>biological_process</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>GO:0006282</td>
+        <td>regulation of DNA repair</td>
+        <td>biological_process</td>
+        <td>1256</td>
+    </tr>
+    <tr>
+        <td>GO:0006808</td>
+        <td>regulation of nitrogen utilization</td>
+        <td>biological_process</td>
+        <td>4094</td>
+    </tr>
+    <tr>
+        <td>GO:0019222</td>
+        <td>regulation of metabolic process</td>
+        <td>biological_process</td>
+        <td>132732</td>
+    </tr>
+    <tr>
+        <td>GO:0009405</td>
+        <td>pathogenesis</td>
+        <td>biological_process</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>GO:0043934</td>
+        <td>sporulation</td>
+        <td>biological_process</td>
+        <td>340</td>
+    </tr>
+    <tr>
+        <td>GO:0006810</td>
+        <td>transport</td>
+        <td>biological_process</td>
+        <td>495736</td>
+    </tr>
+    <tr>
+        <td>GO:0016032</td>
+        <td>viral process</td>
+        <td>biological_process</td>
+        <td>2047</td>
+    </tr>
+    <tr>
+        <td>GO:0046718</td>
+        <td>viral entry into host cell</td>
+        <td>biological_process</td>
+        <td>150</td>
+    </tr>
+    <tr>
+        <td>GO:0005575</td>
+        <td>cellular component</td>
+        <td>cellular_component</td>
+        <td>2012</td>
+    </tr>
+    <tr>
+        <td>GO:0005576</td>
+        <td>extracellular region</td>
+        <td>cellular_component</td>
+        <td>1052</td>
+    </tr>
+    <tr>
+        <td>GO:0005618</td>
+        <td>cell wall</td>
+        <td>cellular_component</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>GO:0009276</td>
+        <td>Gram-negative-bacterium-type cell wall</td>
+        <td>cellular_component</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>GO:0016020</td>
+        <td>membrane</td>
+        <td>cellular_component</td>
+        <td>386628</td>
+    </tr>
+    <tr>
+        <td>GO:0019867</td>
+        <td>outer membrane</td>
+        <td>cellular_component</td>
+        <td>17328</td>
+    </tr>
+    <tr>
+        <td>GO:0042597</td>
+        <td>periplasmic space</td>
+        <td>cellular_component</td>
+        <td>6905</td>
+    </tr>
+    <tr>
+        <td>GO:0031224</td>
+        <td>intrinsic to membrane</td>
+        <td>cellular_component</td>
+        <td>285517</td>
+    </tr>
+    <tr>
+        <td>GO:0019898</td>
+        <td>extrinsic component of membrane</td>
+        <td>cellular_component</td>
+        <td>1003</td>
+    </tr>
+    <tr>
+        <td>GO:0005886</td>
+        <td>plasma membrane</td>
+        <td>cellular_component</td>
+        <td>28129</td>
+    </tr>
+    <tr>
+        <td>GO:0005622</td>
+        <td>intracellular</td>
+        <td>cellular_component</td>
+        <td>25590</td>
+    </tr>
+    <tr>
+        <td>GO:0005737</td>
+        <td>cytoplasm</td>
+        <td>cellular_component</td>
+        <td>83494</td>
+    </tr>
+    <tr>
+        <td>GO:1902494</td>
+        <td>catalytic complex</td>
+        <td>cellular_component</td>
+        <td>3183</td>
+    </tr>
+    <tr>
+        <td>GO:0009317</td>
+        <td>acetyl-CoA carboxylase complex</td>
+        <td>cellular_component</td>
+        <td>5275</td>
+    </tr>
+    <tr>
+        <td>GO:0009349</td>
+        <td>riboflavin synthase complex</td>
+        <td>cellular_component</td>
+        <td>3925</td>
+    </tr>
+    <tr>
+        <td>GO:0009346</td>
+        <td>citrate lyase complex</td>
+        <td>cellular_component</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>GO:0043190</td>
+        <td>ATP-binding cassette (ABC) transporter complex</td>
+        <td>cellular_component</td>
+        <td>21266</td>
+    </tr>
+    <tr>
+        <td>GO:0000015</td>
+        <td>phosphopyruvate hydratase complex</td>
+        <td>cellular_component</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>GO:0009341</td>
+        <td>beta-galactosidase complex</td>
+        <td>cellular_component</td>
+        <td>1678</td>
+    </tr>
+    <tr>
+        <td>GO:0019008</td>
+        <td>molybdopterin synthase complex</td>
+        <td>cellular_component</td>
+        <td>1101</td>
+    </tr>
+    <tr>
+        <td>GO:1990204</td>
+        <td>oxidoreductase complex</td>
+        <td>cellular_component</td>
+        <td>5957</td>
+    </tr>
+    <tr>
+        <td>GO:0033202</td>
+        <td>DNA helicase complex</td>
+        <td>cellular_component</td>
+        <td>850</td>
+    </tr>
+    <tr>
+        <td>GO:0042575</td>
+        <td>DNA polymerase complex</td>
+        <td>cellular_component</td>
+        <td>11187</td>
+    </tr>
+    <tr>
+        <td>GO:0098796</td>
+        <td>membrane protein complex</td>
+        <td>cellular_component</td>
+        <td>31550</td>
+    </tr>
+    <tr>
+        <td>GO:0016469</td>
+        <td>proton-transporting two-sector ATPase complex</td>
+        <td>cellular_component</td>
+        <td>20979</td>
+    </tr>
+    <tr>
+        <td>GO:0005839</td>
+        <td>proteasome core complex</td>
+        <td>cellular_component</td>
+        <td>1923</td>
+    </tr>
+    <tr>
+        <td>GO:0005874</td>
+        <td>microtubule</td>
+        <td>cellular_component</td>
+        <td>136</td>
+    </tr>
+    <tr>
+        <td>GO:0048500</td>
+        <td>signal recognition particle</td>
+        <td>cellular_component</td>
+        <td>4049</td>
+    </tr>
+    <tr>
+        <td>GO:0009288</td>
+        <td>bacterial type flagellum</td>
+        <td>cellular_component</td>
+        <td>6493</td>
+    </tr>
+    <tr>
+        <td>GO:0005840</td>
+        <td>ribosome</td>
+        <td>cellular_component</td>
+        <td>175503</td>
+    </tr>
+    <tr>
+        <td>GO:0005694</td>
+        <td>chromosome</td>
+        <td>cellular_component</td>
+        <td>1952</td>
+    </tr>
+    <tr>
+        <td>GO:0005727</td>
+        <td>extrachromosomal circular DNA</td>
+        <td>cellular_component</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>GO:0005634</td>
+        <td>nucleus</td>
+        <td>cellular_component</td>
+        <td>1706</td>
+    </tr>
+    <tr>
+        <td>GO:0009579</td>
+        <td>thylakoid</td>
+        <td>cellular_component</td>
+        <td>37866</td>
+    </tr>
+    <tr>
+        <td>GO:0019012</td>
+        <td>virion</td>
+        <td>cellular_component</td>
+        <td>133</td>
+    </tr>
+    <tr>
+        <td>GO:0003674</td>
+        <td>molecular function</td>
+        <td>molecular_function</td>
+        <td>62834</td>
+    </tr>
+    <tr>
+        <td>GO:0016209</td>
+        <td>antioxidant activity</td>
+        <td>molecular_function</td>
+        <td>15983</td>
+    </tr>
+    <tr>
+        <td>GO:0004601</td>
+        <td>peroxidase activity</td>
+        <td>molecular_function</td>
+        <td>11672</td>
+    </tr>
+    <tr>
+        <td>GO:0003824</td>
+        <td>catalytic activity</td>
+        <td>molecular_function</td>
+        <td>237894</td>
+    </tr>
+    <tr>
+        <td>GO:0016787</td>
+        <td>hydrolase activity</td>
+        <td>molecular_function</td>
+        <td>358668</td>
+    </tr>
+    <tr>
+        <td>GO:0008233</td>
+        <td>peptidase activity</td>
+        <td>molecular_function</td>
+        <td>148778</td>
+    </tr>
+    <tr>
+        <td>GO:0016791</td>
+        <td>phosphatase activity</td>
+        <td>molecular_function</td>
+        <td>15709</td>
+    </tr>
+    <tr>
+        <td>GO:0017111</td>
+        <td>nucleoside-triphosphatase activity</td>
+        <td>molecular_function</td>
+        <td>196092</td>
+    </tr>
+    <tr>
+        <td>GO:0009055</td>
+        <td>electron carrier activity</td>
+        <td>molecular_function</td>
+        <td>83927</td>
+    </tr>
+    <tr>
+        <td>GO:0016853</td>
+        <td>isomerase activity</td>
+        <td>molecular_function</td>
+        <td>188067</td>
+    </tr>
+    <tr>
+        <td>GO:0016874</td>
+        <td>ligase activity</td>
+        <td>molecular_function</td>
+        <td>411168</td>
+    </tr>
+    <tr>
+        <td>GO:0016829</td>
+        <td>lyase activity</td>
+        <td>molecular_function</td>
+        <td>234978</td>
+    </tr>
+    <tr>
+        <td>GO:0016491</td>
+        <td>oxidoreductase activity</td>
+        <td>molecular_function</td>
+        <td>720889</td>
+    </tr>
+    <tr>
+        <td>GO:0000150</td>
+        <td>recombinase activity</td>
+        <td>molecular_function</td>
+        <td>3051</td>
+    </tr>
+    <tr>
+        <td>GO:0004803</td>
+        <td>transposase activiy</td>
+        <td>molecular_function</td>
+        <td>1770</td>
+    </tr>
+    <tr>
+        <td>GO:0030170</td>
+        <td>pyridoxal phosphate binding</td>
+        <td>molecular_function</td>
+        <td>97966</td>
+    </tr>
+    <tr>
+        <td>GO:0019842</td>
+        <td>vitamin binding</td>
+        <td>molecular_function</td>
+        <td>46334</td>
+    </tr>
+    <tr>
+        <td>GO:0030246</td>
+        <td>carbohydrate binding</td>
+        <td>molecular_function</td>
+        <td>5466</td>
+    </tr>
+    <tr>
+        <td>GO:0046906</td>
+        <td>tetrapyrrole binding</td>
+        <td>molecular_function</td>
+        <td>72373</td>
+    </tr>
+    <tr>
+        <td>GO:0043167</td>
+        <td>ion binding</td>
+        <td>molecular_function</td>
+        <td>1561</td>
+    </tr>
+    <tr>
+        <td>GO:0005515</td>
+        <td>protein binding</td>
+        <td>molecular_function</td>
+        <td>102040</td>
+    </tr>
+    <tr>
+        <td>GO:0016597</td>
+        <td>amino acid binding</td>
+        <td>molecular_function</td>
+        <td>9008</td>
+    </tr>
+    <tr>
+        <td>GO:0046872</td>
+        <td>metal ion binding</td>
+        <td>molecular_function</td>
+        <td>258290</td>
+    </tr>
+    <tr>
+        <td>GO:0008658</td>
+        <td>penicillin binding</td>
+        <td>molecular_function</td>
+        <td>25605</td>
+    </tr>
+    <tr>
+        <td>GO:0050662</td>
+        <td>coenzyme binding</td>
+        <td>molecular_function</td>
+        <td>229084</td>
+    </tr>
+    <tr>
+        <td>GO:0051536</td>
+        <td>iron-sulfur cluster binding</td>
+        <td>molecular_function</td>
+        <td>76457</td>
+    </tr>
+    <tr>
+        <td>GO:0003676</td>
+        <td>nucleic acid binding</td>
+        <td>molecular_function</td>
+        <td>615964</td>
+    </tr>
+    <tr>
+        <td>GO:0000166</td>
+        <td>nucleotide binding</td>
+        <td>molecular_function</td>
+        <td>1168646</td>
+    </tr>
+    <tr>
+        <td>GO:0008134</td>
+        <td>transcription factor binding</td>
+        <td>molecular_function</td>
+        <td>15387</td>
+    </tr>
+    <tr>
+        <td>GO:0003700</td>
+        <td>transcription factor activity, sequence-specific DNA binding</td>
+        <td>molecular_function</td>
+        <td>68065</td>
+    </tr>
+    <tr>
+        <td>GO:0005215</td>
+        <td>transporter activity</td>
+        <td>molecular_function</td>
+        <td>318240</td>
+    </tr>
+    <tr>
+        <td>GO:0090484</td>
+        <td>drug transporter activity</td>
+        <td>molecular_function</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>GO:0016740</td>
+        <td>transferase activity</td>
+        <td>molecular_function</td>
+        <td>587235</td>
+    </tr>
+    <tr>
+        <td>GO:0016301</td>
+        <td>kinase activity</td>
+        <td>molecular_function</td>
+        <td>86907</td>
+    </tr>
+    <tr>
+        <td>GO:0016779</td>
+        <td>nucleotidyltransferase activity</td>
+        <td>molecular_function</td>
+        <td>150388</td>
+    </tr>
+    <tr>
+        <td>GO:0004871</td>
+        <td>signal transducer activity</td>
+        <td>molecular_function</td>
+        <td>9908</td>
+    </tr>
+    <tr>
+        <td>GO:0004872</td>
+        <td>receptor activity</td>
+        <td>molecular_function</td>
+        <td>10114</td>
+    </tr>
+    <tr>
+        <td>GO:0003735</td>
+        <td>structural constituent of ribosome</td>
+        <td>molecular_function</td>
+        <td>181983</td>
+    </tr>
+</table>
+</div>
+
+</br>
 
 #### KEGG terms (KOs)
 
-Simiilarly, on the first column we get the number of hits an id had among the reads, on the second the KO and on the third its description.
+Simiilar to the IPS case, on the first column we get the number of hits an id had among the reads, on the second the KO and on the third its description.
 
 <div style="width:200%; height:900px; overflow: auto">
 <table>
@@ -63713,9 +64426,11 @@ Simiilarly, on the first column we get the number of hits an id had among the re
 </div>
 
 
+</br>
+
 #### Pfam 
 
-Like in the previous cases. 
+Like in the IPS and the KEGG cases.
 
 <div style="width:200%; height:900px; overflow: auto">
 <table style="width:200%; height:900px;">
@@ -111462,710 +112177,9 @@ Like in the previous cases.
 </table>
 </div>
 
+</br>
 
 
-#### GO-slim 
-
-<div style="width:200%; height:900px; overflow: auto">
-<table>
-    <tr>
-        <td>GO:0008150</td>
-        <td>biological process</td>
-        <td>biological_process</td>
-        <td>38851</td>
-    </tr>
-    <tr>
-        <td>GO:0071973</td>
-        <td>bacterial-type flagellar cell motility</td>
-        <td>biological_process</td>
-        <td>5498</td>
-    </tr>
-    <tr>
-        <td>GO:0071840</td>
-        <td>cellular component organization or biogenesis</td>
-        <td>biological_process</td>
-        <td>67937</td>
-    </tr>
-    <tr>
-        <td>GO:0071103</td>
-        <td>DNA conformation change</td>
-        <td>biological_process</td>
-        <td>58455</td>
-    </tr>
-    <tr>
-        <td>GO:0045454</td>
-        <td>cell redox homeostasis</td>
-        <td>biological_process</td>
-        <td>7694</td>
-    </tr>
-    <tr>
-        <td>GO:0065003</td>
-        <td>macromolecular complex assembly</td>
-        <td>biological_process</td>
-        <td>6748</td>
-    </tr>
-    <tr>
-        <td>GO:0016226</td>
-        <td>iron-sulfur cluster assembly</td>
-        <td>biological_process</td>
-        <td>19524</td>
-    </tr>
-    <tr>
-        <td>GO:0017004</td>
-        <td>cytochrome complex assembly</td>
-        <td>biological_process</td>
-        <td>14779</td>
-    </tr>
-    <tr>
-        <td>GO:0008152</td>
-        <td>metabolic process</td>
-        <td>biological_process</td>
-        <td>133615</td>
-    </tr>
-    <tr>
-        <td>GO:0008218</td>
-        <td>bioluminescence</td>
-        <td>biological_process</td>
-        <td>415</td>
-    </tr>
-    <tr>
-        <td>GO:0009058</td>
-        <td>biosynthetic process</td>
-        <td>biological_process</td>
-        <td>864532</td>
-    </tr>
-    <tr>
-        <td>GO:0017000</td>
-        <td>antibiotic biosynthetic process</td>
-        <td>biological_process</td>
-        <td>4181</td>
-    </tr>
-    <tr>
-        <td>GO:0009403</td>
-        <td>toxin biosynthetic process</td>
-        <td>biological_process</td>
-        <td>2096</td>
-    </tr>
-    <tr>
-        <td>GO:0006259</td>
-        <td>DNA metabolic process</td>
-        <td>biological_process</td>
-        <td>260310</td>
-    </tr>
-    <tr>
-        <td>GO:0016070</td>
-        <td>RNA metabolic process</td>
-        <td>biological_process</td>
-        <td>305843</td>
-    </tr>
-    <tr>
-        <td>GO:0006351</td>
-        <td>transcription, DNA-templated</td>
-        <td>biological_process</td>
-        <td>117124</td>
-    </tr>
-    <tr>
-        <td>GO:0005975</td>
-        <td>carbohydrate metabolic process</td>
-        <td>biological_process</td>
-        <td>259282</td>
-    </tr>
-    <tr>
-        <td>GO:0006091</td>
-        <td>generation of precursor metabolites and energy</td>
-        <td>biological_process</td>
-        <td>123087</td>
-    </tr>
-    <tr>
-        <td>GO:0006629</td>
-        <td>lipid metabolic process</td>
-        <td>biological_process</td>
-        <td>140116</td>
-    </tr>
-    <tr>
-        <td>GO:0015948</td>
-        <td>methanogenesis</td>
-        <td>biological_process</td>
-        <td>9260</td>
-    </tr>
-    <tr>
-        <td>GO:0006807</td>
-        <td>nitrogen compound metabolic process</td>
-        <td>biological_process</td>
-        <td>737356</td>
-    </tr>
-    <tr>
-        <td>GO:0016310</td>
-        <td>phosphorylation</td>
-        <td>biological_process</td>
-        <td>77434</td>
-    </tr>
-    <tr>
-        <td>GO:0015979</td>
-        <td>photosynthesis</td>
-        <td>biological_process</td>
-        <td>50385</td>
-    </tr>
-    <tr>
-        <td>GO:0006508</td>
-        <td>proteolysis</td>
-        <td>biological_process</td>
-        <td>129948</td>
-    </tr>
-    <tr>
-        <td>GO:0044281</td>
-        <td>small molecule metabolic process</td>
-        <td>biological_process</td>
-        <td>894090</td>
-    </tr>
-    <tr>
-        <td>GO:0006412</td>
-        <td>translation</td>
-        <td>biological_process</td>
-        <td>408914</td>
-    </tr>
-    <tr>
-        <td>GO:0007155</td>
-        <td>cell adhesion</td>
-        <td>biological_process</td>
-        <td>6851</td>
-    </tr>
-    <tr>
-        <td>GO:0006457</td>
-        <td>protein folding</td>
-        <td>biological_process</td>
-        <td>33803</td>
-    </tr>
-    <tr>
-        <td>GO:0007165</td>
-        <td>signal transduction</td>
-        <td>biological_process</td>
-        <td>17005</td>
-    </tr>
-    <tr>
-        <td>GO:0000160</td>
-        <td>phosphorelay signal transduction system</td>
-        <td>biological_process</td>
-        <td>46163</td>
-    </tr>
-    <tr>
-        <td>GO:0009607</td>
-        <td>response to biotic stimulus</td>
-        <td>biological_process</td>
-        <td>190</td>
-    </tr>
-    <tr>
-        <td>GO:0009628</td>
-        <td>response to abiotic stimulus</td>
-        <td>biological_process</td>
-        <td>1251</td>
-    </tr>
-    <tr>
-        <td>GO:0042221</td>
-        <td>response to chemical</td>
-        <td>biological_process</td>
-        <td>5201</td>
-    </tr>
-    <tr>
-        <td>GO:0006950</td>
-        <td>response to stress</td>
-        <td>biological_process</td>
-        <td>95131</td>
-    </tr>
-    <tr>
-        <td>GO:0009372</td>
-        <td>quorum sensing</td>
-        <td>biological_process</td>
-        <td>6</td>
-    </tr>
-    <tr>
-        <td>GO:0006282</td>
-        <td>regulation of DNA repair</td>
-        <td>biological_process</td>
-        <td>1256</td>
-    </tr>
-    <tr>
-        <td>GO:0006808</td>
-        <td>regulation of nitrogen utilization</td>
-        <td>biological_process</td>
-        <td>4094</td>
-    </tr>
-    <tr>
-        <td>GO:0019222</td>
-        <td>regulation of metabolic process</td>
-        <td>biological_process</td>
-        <td>132732</td>
-    </tr>
-    <tr>
-        <td>GO:0009405</td>
-        <td>pathogenesis</td>
-        <td>biological_process</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>GO:0043934</td>
-        <td>sporulation</td>
-        <td>biological_process</td>
-        <td>340</td>
-    </tr>
-    <tr>
-        <td>GO:0006810</td>
-        <td>transport</td>
-        <td>biological_process</td>
-        <td>495736</td>
-    </tr>
-    <tr>
-        <td>GO:0016032</td>
-        <td>viral process</td>
-        <td>biological_process</td>
-        <td>2047</td>
-    </tr>
-    <tr>
-        <td>GO:0046718</td>
-        <td>viral entry into host cell</td>
-        <td>biological_process</td>
-        <td>150</td>
-    </tr>
-    <tr>
-        <td>GO:0005575</td>
-        <td>cellular component</td>
-        <td>cellular_component</td>
-        <td>2012</td>
-    </tr>
-    <tr>
-        <td>GO:0005576</td>
-        <td>extracellular region</td>
-        <td>cellular_component</td>
-        <td>1052</td>
-    </tr>
-    <tr>
-        <td>GO:0005618</td>
-        <td>cell wall</td>
-        <td>cellular_component</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>GO:0009276</td>
-        <td>Gram-negative-bacterium-type cell wall</td>
-        <td>cellular_component</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>GO:0016020</td>
-        <td>membrane</td>
-        <td>cellular_component</td>
-        <td>386628</td>
-    </tr>
-    <tr>
-        <td>GO:0019867</td>
-        <td>outer membrane</td>
-        <td>cellular_component</td>
-        <td>17328</td>
-    </tr>
-    <tr>
-        <td>GO:0042597</td>
-        <td>periplasmic space</td>
-        <td>cellular_component</td>
-        <td>6905</td>
-    </tr>
-    <tr>
-        <td>GO:0031224</td>
-        <td>intrinsic to membrane</td>
-        <td>cellular_component</td>
-        <td>285517</td>
-    </tr>
-    <tr>
-        <td>GO:0019898</td>
-        <td>extrinsic component of membrane</td>
-        <td>cellular_component</td>
-        <td>1003</td>
-    </tr>
-    <tr>
-        <td>GO:0005886</td>
-        <td>plasma membrane</td>
-        <td>cellular_component</td>
-        <td>28129</td>
-    </tr>
-    <tr>
-        <td>GO:0005622</td>
-        <td>intracellular</td>
-        <td>cellular_component</td>
-        <td>25590</td>
-    </tr>
-    <tr>
-        <td>GO:0005737</td>
-        <td>cytoplasm</td>
-        <td>cellular_component</td>
-        <td>83494</td>
-    </tr>
-    <tr>
-        <td>GO:1902494</td>
-        <td>catalytic complex</td>
-        <td>cellular_component</td>
-        <td>3183</td>
-    </tr>
-    <tr>
-        <td>GO:0009317</td>
-        <td>acetyl-CoA carboxylase complex</td>
-        <td>cellular_component</td>
-        <td>5275</td>
-    </tr>
-    <tr>
-        <td>GO:0009349</td>
-        <td>riboflavin synthase complex</td>
-        <td>cellular_component</td>
-        <td>3925</td>
-    </tr>
-    <tr>
-        <td>GO:0009346</td>
-        <td>citrate lyase complex</td>
-        <td>cellular_component</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>GO:0043190</td>
-        <td>ATP-binding cassette (ABC) transporter complex</td>
-        <td>cellular_component</td>
-        <td>21266</td>
-    </tr>
-    <tr>
-        <td>GO:0000015</td>
-        <td>phosphopyruvate hydratase complex</td>
-        <td>cellular_component</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>GO:0009341</td>
-        <td>beta-galactosidase complex</td>
-        <td>cellular_component</td>
-        <td>1678</td>
-    </tr>
-    <tr>
-        <td>GO:0019008</td>
-        <td>molybdopterin synthase complex</td>
-        <td>cellular_component</td>
-        <td>1101</td>
-    </tr>
-    <tr>
-        <td>GO:1990204</td>
-        <td>oxidoreductase complex</td>
-        <td>cellular_component</td>
-        <td>5957</td>
-    </tr>
-    <tr>
-        <td>GO:0033202</td>
-        <td>DNA helicase complex</td>
-        <td>cellular_component</td>
-        <td>850</td>
-    </tr>
-    <tr>
-        <td>GO:0042575</td>
-        <td>DNA polymerase complex</td>
-        <td>cellular_component</td>
-        <td>11187</td>
-    </tr>
-    <tr>
-        <td>GO:0098796</td>
-        <td>membrane protein complex</td>
-        <td>cellular_component</td>
-        <td>31550</td>
-    </tr>
-    <tr>
-        <td>GO:0016469</td>
-        <td>proton-transporting two-sector ATPase complex</td>
-        <td>cellular_component</td>
-        <td>20979</td>
-    </tr>
-    <tr>
-        <td>GO:0005839</td>
-        <td>proteasome core complex</td>
-        <td>cellular_component</td>
-        <td>1923</td>
-    </tr>
-    <tr>
-        <td>GO:0005874</td>
-        <td>microtubule</td>
-        <td>cellular_component</td>
-        <td>136</td>
-    </tr>
-    <tr>
-        <td>GO:0048500</td>
-        <td>signal recognition particle</td>
-        <td>cellular_component</td>
-        <td>4049</td>
-    </tr>
-    <tr>
-        <td>GO:0009288</td>
-        <td>bacterial type flagellum</td>
-        <td>cellular_component</td>
-        <td>6493</td>
-    </tr>
-    <tr>
-        <td>GO:0005840</td>
-        <td>ribosome</td>
-        <td>cellular_component</td>
-        <td>175503</td>
-    </tr>
-    <tr>
-        <td>GO:0005694</td>
-        <td>chromosome</td>
-        <td>cellular_component</td>
-        <td>1952</td>
-    </tr>
-    <tr>
-        <td>GO:0005727</td>
-        <td>extrachromosomal circular DNA</td>
-        <td>cellular_component</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>GO:0005634</td>
-        <td>nucleus</td>
-        <td>cellular_component</td>
-        <td>1706</td>
-    </tr>
-    <tr>
-        <td>GO:0009579</td>
-        <td>thylakoid</td>
-        <td>cellular_component</td>
-        <td>37866</td>
-    </tr>
-    <tr>
-        <td>GO:0019012</td>
-        <td>virion</td>
-        <td>cellular_component</td>
-        <td>133</td>
-    </tr>
-    <tr>
-        <td>GO:0003674</td>
-        <td>molecular function</td>
-        <td>molecular_function</td>
-        <td>62834</td>
-    </tr>
-    <tr>
-        <td>GO:0016209</td>
-        <td>antioxidant activity</td>
-        <td>molecular_function</td>
-        <td>15983</td>
-    </tr>
-    <tr>
-        <td>GO:0004601</td>
-        <td>peroxidase activity</td>
-        <td>molecular_function</td>
-        <td>11672</td>
-    </tr>
-    <tr>
-        <td>GO:0003824</td>
-        <td>catalytic activity</td>
-        <td>molecular_function</td>
-        <td>237894</td>
-    </tr>
-    <tr>
-        <td>GO:0016787</td>
-        <td>hydrolase activity</td>
-        <td>molecular_function</td>
-        <td>358668</td>
-    </tr>
-    <tr>
-        <td>GO:0008233</td>
-        <td>peptidase activity</td>
-        <td>molecular_function</td>
-        <td>148778</td>
-    </tr>
-    <tr>
-        <td>GO:0016791</td>
-        <td>phosphatase activity</td>
-        <td>molecular_function</td>
-        <td>15709</td>
-    </tr>
-    <tr>
-        <td>GO:0017111</td>
-        <td>nucleoside-triphosphatase activity</td>
-        <td>molecular_function</td>
-        <td>196092</td>
-    </tr>
-    <tr>
-        <td>GO:0009055</td>
-        <td>electron carrier activity</td>
-        <td>molecular_function</td>
-        <td>83927</td>
-    </tr>
-    <tr>
-        <td>GO:0016853</td>
-        <td>isomerase activity</td>
-        <td>molecular_function</td>
-        <td>188067</td>
-    </tr>
-    <tr>
-        <td>GO:0016874</td>
-        <td>ligase activity</td>
-        <td>molecular_function</td>
-        <td>411168</td>
-    </tr>
-    <tr>
-        <td>GO:0016829</td>
-        <td>lyase activity</td>
-        <td>molecular_function</td>
-        <td>234978</td>
-    </tr>
-    <tr>
-        <td>GO:0016491</td>
-        <td>oxidoreductase activity</td>
-        <td>molecular_function</td>
-        <td>720889</td>
-    </tr>
-    <tr>
-        <td>GO:0000150</td>
-        <td>recombinase activity</td>
-        <td>molecular_function</td>
-        <td>3051</td>
-    </tr>
-    <tr>
-        <td>GO:0004803</td>
-        <td>transposase activiy</td>
-        <td>molecular_function</td>
-        <td>1770</td>
-    </tr>
-    <tr>
-        <td>GO:0030170</td>
-        <td>pyridoxal phosphate binding</td>
-        <td>molecular_function</td>
-        <td>97966</td>
-    </tr>
-    <tr>
-        <td>GO:0019842</td>
-        <td>vitamin binding</td>
-        <td>molecular_function</td>
-        <td>46334</td>
-    </tr>
-    <tr>
-        <td>GO:0030246</td>
-        <td>carbohydrate binding</td>
-        <td>molecular_function</td>
-        <td>5466</td>
-    </tr>
-    <tr>
-        <td>GO:0046906</td>
-        <td>tetrapyrrole binding</td>
-        <td>molecular_function</td>
-        <td>72373</td>
-    </tr>
-    <tr>
-        <td>GO:0043167</td>
-        <td>ion binding</td>
-        <td>molecular_function</td>
-        <td>1561</td>
-    </tr>
-    <tr>
-        <td>GO:0005515</td>
-        <td>protein binding</td>
-        <td>molecular_function</td>
-        <td>102040</td>
-    </tr>
-    <tr>
-        <td>GO:0016597</td>
-        <td>amino acid binding</td>
-        <td>molecular_function</td>
-        <td>9008</td>
-    </tr>
-    <tr>
-        <td>GO:0046872</td>
-        <td>metal ion binding</td>
-        <td>molecular_function</td>
-        <td>258290</td>
-    </tr>
-    <tr>
-        <td>GO:0008658</td>
-        <td>penicillin binding</td>
-        <td>molecular_function</td>
-        <td>25605</td>
-    </tr>
-    <tr>
-        <td>GO:0050662</td>
-        <td>coenzyme binding</td>
-        <td>molecular_function</td>
-        <td>229084</td>
-    </tr>
-    <tr>
-        <td>GO:0051536</td>
-        <td>iron-sulfur cluster binding</td>
-        <td>molecular_function</td>
-        <td>76457</td>
-    </tr>
-    <tr>
-        <td>GO:0003676</td>
-        <td>nucleic acid binding</td>
-        <td>molecular_function</td>
-        <td>615964</td>
-    </tr>
-    <tr>
-        <td>GO:0000166</td>
-        <td>nucleotide binding</td>
-        <td>molecular_function</td>
-        <td>1168646</td>
-    </tr>
-    <tr>
-        <td>GO:0008134</td>
-        <td>transcription factor binding</td>
-        <td>molecular_function</td>
-        <td>15387</td>
-    </tr>
-    <tr>
-        <td>GO:0003700</td>
-        <td>transcription factor activity, sequence-specific DNA binding</td>
-        <td>molecular_function</td>
-        <td>68065</td>
-    </tr>
-    <tr>
-        <td>GO:0005215</td>
-        <td>transporter activity</td>
-        <td>molecular_function</td>
-        <td>318240</td>
-    </tr>
-    <tr>
-        <td>GO:0090484</td>
-        <td>drug transporter activity</td>
-        <td>molecular_function</td>
-        <td>1</td>
-    </tr>
-    <tr>
-        <td>GO:0016740</td>
-        <td>transferase activity</td>
-        <td>molecular_function</td>
-        <td>587235</td>
-    </tr>
-    <tr>
-        <td>GO:0016301</td>
-        <td>kinase activity</td>
-        <td>molecular_function</td>
-        <td>86907</td>
-    </tr>
-    <tr>
-        <td>GO:0016779</td>
-        <td>nucleotidyltransferase activity</td>
-        <td>molecular_function</td>
-        <td>150388</td>
-    </tr>
-    <tr>
-        <td>GO:0004871</td>
-        <td>signal transducer activity</td>
-        <td>molecular_function</td>
-        <td>9908</td>
-    </tr>
-    <tr>
-        <td>GO:0004872</td>
-        <td>receptor activity</td>
-        <td>molecular_function</td>
-        <td>10114</td>
-    </tr>
-    <tr>
-        <td>GO:0003735</td>
-        <td>structural constituent of ribosome</td>
-        <td>molecular_function</td>
-        <td>181983</td>
-    </tr>
-</table>
-</div>
 
 
 [back](./)
