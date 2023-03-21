@@ -50951,7 +50951,7 @@ On the first column we get the number of hits an id had among the reads, on the 
         <td>PE-PGRS family, N-terminal</td>
     </tr>
 </table>
-</dev>
+</div>
 
 <br>
 
@@ -51662,7 +51662,7 @@ we have the number of hits of the annotation on the reads.
         <td>87105</td>
     </tr>
 </table>
-</dev>
+</div>
 
 <br>
 
@@ -62338,7 +62338,7 @@ Simiilar to the IPS case, on the first column we get the number of hits an id ha
         <td>tRNA (guanosine-2&#39;-O-)-methyltransferase [EC:2.1.1.34]</td>
     </tr>
 </table>
-</dev>
+</div>
 
 <br>
 
@@ -107914,7 +107914,7 @@ Like in the IPS and the KEGG cases.
         <td>7 transmembrane receptor (Secretin family)</td>
     </tr>
 </table>
-</dev>
+</div>
 
 
 
