@@ -14,8 +14,6 @@ In the following diagram is an overview of the metaGOflow steps:
 
 <!-- As long as our sequences seem good enough, we can investigate the taxonomic inventories returned, based on the SSU and the LSU rRNA genes.  -->
 
-<br>
-
 Here we show visual components accompanying the [metaGOflow publication](). 
 We performed all steps of metaGOflow for a marine sediment (ERR) and a water column (ERR) samples. 
 A quality control report, the taxonomic inventories as well as most of the functional annotations returned in each case are displayed. 
@@ -30,10 +28,15 @@ You can find all the input-output files along with the RO-crates produced by met
 * For the **water column** sample, you may have a look [here](./water-column.html)
 
 
-Thank you for your interest on metaGOflow. 
+<br>
+
+
+**metaGOflow source code**
+[GitHub repo](https://github.com/emo-bon/MetaGOflow)
+
 
 **Citation**
-
+In case you are using metaGOflow for your analysis, please remember to cite us: 
 
 
 
