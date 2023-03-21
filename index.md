@@ -16,7 +16,7 @@ In the following diagram is an overview of the metaGOflow steps:
 
 <br>
 
-Here we show visual components accompanying the metaGOflow publication (cite). 
+Here we show visual components accompanying the [metaGOflow publication](). 
 We performed all steps of metaGOflow for a marine sediment (ERR) and a water column (ERR) samples. 
 A quality control report, the taxonomic inventories as well as most of the functional annotations returned in each case are displayed. 
 metaGOflow also returned the assemblies of the samples. 
@@ -24,10 +24,10 @@ You can find all the input-output files along with the RO-crates produced by met
 <!-- remember to update when zenodo ready -->
 
 
-* To have an overview on the metaGOflow results for the marine sample click [here](./marine-sediment.html).
+* To have an overview on the metaGOflow results for the **marine sediment** sample click [here](./marine-sediment.html).
 
 
-* For the water column sample, you may have a look [here](./water-column.html)
+* For the **water column** sample, you may have a look [here](./water-column.html)
 
 
 Thank you for your interest on metaGOflow. 
