@@ -8,13 +8,22 @@ aiming to address the challenges of the analysis of the European Marine Omics Bi
 
 
 Here we show visual components accompanying the metaGOflow publication (cite). 
-We performed all steps of metaGOflow for a marine sediment sample () and here is the taxonomic inventories based on LSU and SSU. 
+We performed all steps of metaGOflow for a marine sediment (ERR) and a water column (ERR) samples. 
+
+metaGOflow returns a quality control of the raw data: 
+
+* For the sediment sample:
 
 
+* For the water column sanmple:
 
-<iframe src="https://htmlpreview.github.io/?https://github.com/hariszaf/metaGOflow-use-case/blob/gh-pages/assets/htmls/fastp_water.html" style="width:200%; height:900px;" ></iframe>
+<iframe src="https://rawcdn.githack.com/hariszaf/metaGOflow-use-case/9766cc201d8ca6321f75ccf42eb9273af210861b/assets/htmls/fastp_water.html" style="width:200%; height:900px;" ></iframe>
 
-
+<!-- 
+As displaying dynamic figures on GitHub pages can be rather challenging, you may get the quality control checks from here
+<a href="https://github.com/plotly-dash-apps/101-static-website-example">code on github</a>
+<a href="https://github.com/plotly-dash-apps/101-static-website-example">code on github</a>
+ -->
 
 
 
