@@ -7,49 +7,36 @@ aiming to address the challenges of the analysis of the European Marine Omics Bi
 [EMO BON](https://www.embrc.eu/emo-bon) is a long-term omics observatory of marine biodiversity that generates hundreds of metagenomic samples periodically from a range of stations around Europe.
 
 
+In the following diagram is an overview of the metaGOflow steps:
+
+![wf](https://github.com/hariszaf/metaGOflow-use-case/blob/gh-pages/assets/img/eosc-life-marine-gos-wf.png)
+
+
+<!-- As long as our sequences seem good enough, we can investigate the taxonomic inventories returned, based on the SSU and the LSU rRNA genes.  -->
+
+<br>
+
 Here we show visual components accompanying the metaGOflow publication (cite). 
 We performed all steps of metaGOflow for a marine sediment (ERR) and a water column (ERR) samples. 
+A quality control report, the taxonomic inventories as well as most of the functional annotations returned in each case are displayed. 
+metaGOflow also returned the assemblies of the samples. 
+You can find all the input-output files along with the RO-crates produced by metaGOflow for those 2 samples under this [Zenodo repository]().
+<!-- remember to update when zenodo ready -->
 
-* To have an overview on the metaGOflow results for the marine sample you may click [Link to another page](./marine-sediment.html).
+
+* To have an overview on the metaGOflow results for the marine sample click [here](./marine-sediment.html).
 
 
 * For the water column sample, you may have a look [here](./water-column.html)
 
 
-metaGOflow returns a quality control of the raw data: 
+Thank you for your interest on metaGOflow. 
 
-* For the sediment sample:
-
-<iframe src="https://rawcdn.githack.com/hariszaf/metaGOflow-use-case/291c5cc4a28dca7a4c2344753e9f85d15ccf68fc/assets/htmls/fastp_sediment.html" style="width:200%; height:900px;" ></iframe>
-
-* For the water column sanmple:
-
-<iframe src="https://rawcdn.githack.com/hariszaf/metaGOflow-use-case/9766cc201d8ca6321f75ccf42eb9273af210861b/assets/htmls/fastp_water.html" style="width:200%; height:900px;" ></iframe>
-
-
-As long as our sequences seem good enough, we can investigate the taxonomic inventories returned, based on the SSU and the LSU rRNA genes: 
-
-* from the sediment sample:
-
-<iframe src="https://rawcdn.githack.com/hariszaf/metaGOflow-use-case/291c5cc4a28dca7a4c2344753e9f85d15ccf68fc/assets/htmls/taxonomic_inventories_sediment.html" style="width:200%; height:900px;" ></iframe>
-
-
-* from the water column sample:
-
-<iframe src="https://rawcdn.githack.com/hariszaf/metaGOflow-use-case/291c5cc4a28dca7a4c2344753e9f85d15ccf68fc/assets/htmls/taxonomic_inventories_water.html" style="width:200%; height:900px;" ></iframe>
-
-
-
-
-
-
+**Citation**
 
 
 
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-
-
 
 
