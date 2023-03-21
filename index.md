@@ -9,7 +9,7 @@ aiming to address the challenges of the analysis of the European Marine Omics Bi
 
 In the following diagram is an overview of the metaGOflow steps:
 
-![wf](https://github.com/hariszaf/metaGOflow-use-case/blob/gh-pages/assets/img/eosc-life-marine-gos-wf.png)
+![wf](https://raw.githubusercontent.com/hariszaf/metaGOflow-use-case/gh-pages/assets/img/eosc-life-marine-gos-wf.png)
 
 
 <!-- As long as our sequences seem good enough, we can investigate the taxonomic inventories returned, based on the SSU and the LSU rRNA genes.  -->
