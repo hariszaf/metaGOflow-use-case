@@ -31,7 +31,7 @@ metaGOflow supports a functional annotation step that uses the filtered reads an
 #### InterProScan 
 
 
-<div style="height: 55%; overflow: auto">
+<div style="width:150%; height:900px; overflow: auto">
   <table style="width:200%; height:900px;">
     <tr>
         <td>119800</td>
