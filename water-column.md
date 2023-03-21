@@ -33,7 +33,7 @@ On the first column we get the number of hits an id had among the reads, on the 
 
 
 <div style="width:200%; height:900px; overflow: auto">
-  <table style="width:200%; height:900px;">
+  <table>
     <tr>
         <td>119800</td>
         <td>IPR003439</td>
@@ -64433,7 +64433,7 @@ Simiilar to the IPS case, on the first column we get the number of hits an id ha
 Like in the IPS and the KEGG cases.
 
 <div style="width:200%; height:900px; overflow: auto">
-<table style="width:200%; height:900px;">
+<table>
     <tr>
         <td>119800</td>
         <td>PF00005</td>

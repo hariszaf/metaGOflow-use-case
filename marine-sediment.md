@@ -34,7 +34,7 @@ metaGOflow supports a functional annotation step that uses the filtered reads an
 On the first column we get the number of hits an id had among the reads, on the second the IPS id and on the third its description.
 
 <div style="width:200%; height:900px; overflow: auto">
-<table style="width:200%; height:900px;">
+<table>
     <tr>
         <td>115018</td>
         <td>IPR003439</td>

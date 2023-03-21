@@ -31,11 +31,12 @@ You can find all the input-output files along with the RO-crates produced by met
 <br>
 
 
-**metaGOflow source code**
+**metaGOflow source code:**
 [GitHub repo](https://github.com/emo-bon/MetaGOflow)
 
 
 **Citation**
+
 In case you are using metaGOflow for your analysis, please remember to cite us: 
 
 
