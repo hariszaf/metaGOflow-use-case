@@ -52127,7 +52127,7 @@ On the first column we get the number of hits an id had among the reads, on the 
   </table>
 </div>
 
-</br>
+<br>
 
 
 #### GO-slim 
@@ -52839,7 +52839,7 @@ we have the number of hits of the annotation on the reads.
 </table>
 </div>
 
-</br>
+<br>
 
 #### KEGG terms (KOs)
 
@@ -64426,7 +64426,7 @@ Simiilar to the IPS case, on the first column we get the number of hits an id ha
 </div>
 
 
-</br>
+<br>
 
 #### Pfam 
 
@@ -112177,7 +112177,7 @@ Like in the IPS and the KEGG cases.
 </table>
 </div>
 
-</br>
+<br>
 
 
 
