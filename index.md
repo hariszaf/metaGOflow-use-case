@@ -14,16 +14,24 @@ metaGOflow returns a quality control of the raw data:
 
 * For the sediment sample:
 
+<iframe src="https://rawcdn.githack.com/hariszaf/metaGOflow-use-case/291c5cc4a28dca7a4c2344753e9f85d15ccf68fc/assets/htmls/fastp_sediment.html" style="width:200%; height:900px;" ></iframe>
 
 * For the water column sanmple:
 
 <iframe src="https://rawcdn.githack.com/hariszaf/metaGOflow-use-case/9766cc201d8ca6321f75ccf42eb9273af210861b/assets/htmls/fastp_water.html" style="width:200%; height:900px;" ></iframe>
 
-<!-- 
-As displaying dynamic figures on GitHub pages can be rather challenging, you may get the quality control checks from here
-<a href="https://github.com/plotly-dash-apps/101-static-website-example">code on github</a>
-<a href="https://github.com/plotly-dash-apps/101-static-website-example">code on github</a>
- -->
+
+As long as our sequences seem good enough, we can investigate the taxonomic inventories returned, based on the SSU and the LSU rRNA genes: 
+
+* from the sediment sample:
+
+<iframe src="https://rawcdn.githack.com/hariszaf/metaGOflow-use-case/291c5cc4a28dca7a4c2344753e9f85d15ccf68fc/assets/htmls/taxonomic_inventories_sediment.html" style="width:200%; height:900px;" ></iframe>
+
+
+* from the water column sample:
+
+<iframe src="https://rawcdn.githack.com/hariszaf/metaGOflow-use-case/291c5cc4a28dca7a4c2344753e9f85d15ccf68fc/assets/htmls/taxonomic_inventories_water.html" style="width:200%; height:900px;" ></iframe>
+
 
 
 
