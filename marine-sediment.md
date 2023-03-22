@@ -51668,7 +51668,7 @@ we have the number of hits of the annotation on the reads.
 
 #### KEGG terms (KOs)
 
-Simiilar to the IPS case, on the first column we get the number of hits an id had among the reads, on the second the KO and on the third its description.
+Similar to the IPS case, on the first column we get the number of hits an id had among the reads, on the second the KO and on the third its description.
 
 <div style="width:200%; height:900px; overflow: auto">
 <table>
