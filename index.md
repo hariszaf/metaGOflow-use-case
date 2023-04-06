@@ -23,14 +23,14 @@ You can find all the input-output files along with the RO-crates produced by met
 <!-- remember to update when zenodo ready -->
 
 
-* [Here](./tara_ocean.md) is an overview on the metaGOflow results when using the TARA OCEANS sample
+* [Here](./tara_ocean.md) is an overview on the metaGOflow data products when using the TARA OCEANS sample
 
 
-> For the EMO BON **marine sediment** 
-<!-- [here](./marine-sediment.html). -->
-and the **water column** samples, 
-<!-- [here](./water-column.html) -->
-the corresponding information will be released by the time the embargo of the raw data is over (September 2023).
+* [Here](./marine-sediment.html) are parts of the metaGOflow data products for the EMO BON **marine sediment**. 
+
+* Last, [here](./water-column.html) are again parts of the metaGOflow data products for the EMO BON **water column** sample.
+
+> The complete data products of the last 2 cases will be displayed as such by the time the embargo of the raw data is over (September 2023).
 
 <br>
 

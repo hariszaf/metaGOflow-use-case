@@ -644,7 +644,7 @@ On the first column we get the number of hits an id had among the reads, on the 
         <td>IPR002912</td>
         <td>ACT domain</td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>12150</td>
         <td>IPR011766</td>
         <td>Thiamine pyrophosphate enzyme, C-terminal TPP-binding</td>
@@ -52123,7 +52123,7 @@ On the first column we get the number of hits an id had among the reads, on the 
         <td>1</td>
         <td>IPR000036</td>
         <td>Peptidase A26, omptin</td>
-    </tr>
+    </tr> -->
   </table>
 </div>
 
@@ -52242,7 +52242,7 @@ we have the number of hits of the annotation on the reads.
         <td>biological_process</td>
         <td>259282</td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>GO:0006091</td>
         <td>generation of precursor metabolites and energy</td>
         <td>biological_process</td>
@@ -52559,7 +52559,7 @@ we have the number of hits of the annotation on the reads.
         <td>microtubule</td>
         <td>cellular_component</td>
         <td>136</td>
-    </tr>
+    </tr>-->
     <tr>
         <td>GO:0048500</td>
         <td>signal recognition particle</td>
@@ -52631,7 +52631,7 @@ we have the number of hits of the annotation on the reads.
         <td>catalytic activity</td>
         <td>molecular_function</td>
         <td>237894</td>
-    </tr>
+    </tr> 
     <tr>
         <td>GO:0016787</td>
         <td>hydrolase activity</td>
@@ -52686,7 +52686,7 @@ we have the number of hits of the annotation on the reads.
         <td>molecular_function</td>
         <td>720889</td>
     </tr>
-    <tr>
+    <!--<tr>
         <td>GO:0000150</td>
         <td>recombinase activity</td>
         <td>molecular_function</td>
@@ -52835,7 +52835,7 @@ we have the number of hits of the annotation on the reads.
         <td>structural constituent of ribosome</td>
         <td>molecular_function</td>
         <td>181983</td>
-    </tr>
+    </tr> -->
 </table>
 </div>
 
@@ -53412,7 +53412,7 @@ Similar to the IPS case, on the first column we get the number of hits an id had
         <td>K01736</td>
         <td>chorismate synthase [EC:4.2.3.5]</td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>2952</td>
         <td>K21929</td>
         <td>uracil-DNA glycosylase [EC:3.2.2.27]</td>
@@ -64420,7 +64420,7 @@ Similar to the IPS case, on the first column we get the number of hits an id had
     <tr>
         <td>1</td>
         <td>K00246</td>
-        <td>fumarate reductase subunit C</td>
+        <td>fumarate reductase subunit C</td> -->
     </tr>
 </table>
 </div>
@@ -74494,7 +74494,7 @@ Like in the IPS and the KEGG cases.
         <td>PF03797</td>
         <td>Autotransporter beta-domain</td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>729</td>
         <td>PF09837</td>
         <td>Uncharacterized protein conserved in bacteria (DUF2064)</td>
@@ -112173,7 +112173,7 @@ Like in the IPS and the KEGG cases.
         <td>1</td>
         <td>PF00014</td>
         <td>Kunitz/Bovine pancreatic trypsin inhibitor domain</td>
-    </tr>
+    </tr> -->
 </table>
 </div>
 
