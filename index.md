@@ -15,18 +15,22 @@ In the following diagram is an overview of the metaGOflow steps:
 <!-- As long as our sequences seem good enough, we can investigate the taxonomic inventories returned, based on the SSU and the LSU rRNA genes.  -->
 
 Here we show visual components accompanying the [metaGOflow publication](). 
-We performed all steps of metaGOflow for a marine sediment (ERR) and a water column (ERR) sample. 
+Among the samples of this use case, a TARA OCEAN sample of size similar to the EMO BON data was analysed. 
+<!-- We performed all steps of metaGOflow for a marine sediment (ERR) and a water column (ERR) sample.  -->
 A quality control report, the taxonomic inventories as well as some of the functional annotations returned in each case are displayed below.
 metaGOflow also returned the assemblies of the samples. 
 You can find all the input-output files along with the RO-crates produced by metaGOflow for those 2 samples under this [Zenodo repository]().
 <!-- remember to update when zenodo ready -->
 
 
-* To have an overview on the metaGOflow results for the **marine sediment** sample click [here](./marine-sediment.html).
+* [Here](./tara_ocean.md) is an overview on the metaGOflow results when using the TARA OCEANS sample
 
 
-* For the **water column** sample, you may have a look [here](./water-column.html)
-
+> For the EMO BON **marine sediment** 
+<!-- [here](./marine-sediment.html). -->
+and the **water column** samples, 
+<!-- [here](./water-column.html) -->
+the corresponding information will be released by the time the embargo of the raw data is over (September 2023).
 
 <br>
 
@@ -43,7 +47,6 @@ In case you are using metaGOflow for your analysis, please remember to cite us:
 **Contact** 
 
 [help@embrc.org](mailto:help@embrc.org)
-
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
