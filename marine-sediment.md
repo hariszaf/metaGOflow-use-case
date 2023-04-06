@@ -2205,7 +2205,7 @@ On the first column we get the number of hits an id had among the reads, on the 
         <td>IPR019489</td>
         <td>Clp ATPase, C-terminal</td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>5155</td>
         <td>IPR001626</td>
         <td>ABC transporter, TroCD-like</td>
@@ -50949,7 +50949,7 @@ On the first column we get the number of hits an id had among the reads, on the 
         <td>1</td>
         <td>IPR000084</td>
         <td>PE-PGRS family, N-terminal</td>
-    </tr>
+    </tr> -->
 </table>
 </div>
 
@@ -51054,7 +51054,7 @@ we have the number of hits of the annotation on the reads.
         <td>RNA metabolic process</td>
         <td>biological_process</td>
         <td>193244</td>
-    </tr>
+    <!-- </tr>
     <tr>
         <td>GO:0006351</td>
         <td>transcription, DNA-templated</td>
@@ -51300,7 +51300,7 @@ we have the number of hits of the annotation on the reads.
         <td>catalytic complex</td>
         <td>cellular_component</td>
         <td>2290</td>
-    </tr>
+    </tr> -->
     <tr>
         <td>GO:0009317</td>
         <td>acetyl-CoA carboxylase complex</td>
@@ -51523,7 +51523,7 @@ we have the number of hits of the annotation on the reads.
         <td>molecular_function</td>
         <td>29571</td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>GO:0030170</td>
         <td>pyridoxal phosphate binding</td>
         <td>molecular_function</td>
@@ -51659,7 +51659,7 @@ we have the number of hits of the annotation on the reads.
         <td>GO:0003735</td>
         <td>structural constituent of ribosome</td>
         <td>molecular_function</td>
-        <td>87105</td>
+        <td>87105</td> -->
     </tr>
 </table>
 </div>
@@ -52817,7 +52817,7 @@ Similar to the IPS case, on the first column we get the number of hits an id had
         <td>K00540</td>
         <td>F420H(2)-dependent quinone reductase [EC:1.1.98.-]</td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>1349</td>
         <td>K00857</td>
         <td>thymidine kinase [EC:2.7.1.21]</td>
@@ -62336,7 +62336,7 @@ Similar to the IPS case, on the first column we get the number of hits an id had
         <td>1</td>
         <td>K00556</td>
         <td>tRNA (guanosine-2&#39;-O-)-methyltransferase [EC:2.1.1.34]</td>
-    </tr>
+    </tr> -->
 </table>
 </div>
 
@@ -66458,7 +66458,7 @@ Like in the IPS and the KEGG cases.
         <td>PF01336</td>
         <td>OB-fold nucleic acid binding domain</td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>2920</td>
         <td>PF05684</td>
         <td>Protein of unknown function (DUF819)</td>
@@ -107912,7 +107912,7 @@ Like in the IPS and the KEGG cases.
         <td>1</td>
         <td>PF00002</td>
         <td>7 transmembrane receptor (Secretin family)</td>
-    </tr>
+    </tr>  -->
 </table>
 </div>
 

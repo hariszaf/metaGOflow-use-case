@@ -67679,7 +67679,7 @@ Like in the IPS and the KEGG cases.
         <td>PF00480</td>
         <td>ROK family</td>
     </tr>
-    <tr>
+    <!--<tr>
         <td>3921</td>
         <td>PF01381</td>
         <td>Helix-turn-helix</td>
@@ -74494,7 +74494,7 @@ Like in the IPS and the KEGG cases.
         <td>PF03797</td>
         <td>Autotransporter beta-domain</td>
     </tr>
-    <!-- <tr>
+     <tr>
         <td>729</td>
         <td>PF09837</td>
         <td>Uncharacterized protein conserved in bacteria (DUF2064)</td>
