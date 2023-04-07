@@ -4,7 +4,9 @@ layout: default
 
 ## Water column 
 
-Sample's accession id:
+* Study accession number: []()
+* Sample accession number: []()
+* Run accession number: []()
 
 ### Quality control
 

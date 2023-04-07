@@ -3,9 +3,13 @@ layout: default
 ---
 
 ## Marine sediment
-
-Sample's accession id:
  
+* Study accession number: []()
+* Sample accession number: []()
+* Run accession number: []()
+
+
+
 ### Quality control
 
 metaGOflow invokes [fastp](https://github.com/OpenGene/fastp) that automatically returns a `.html` report like the one below for the case of this marine sediment sample: 
