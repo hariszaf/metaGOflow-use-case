@@ -46,7 +46,10 @@ In case you are using metaGOflow for your analysis, please remember to cite us:
 
 **Contact** 
 
-[help@embrc.org](mailto:help@embrc.org)
+For bugs/issues you may [open an issue on the GitHub repository of metaGOflow](https://github.com/emo-bon/MetaGOflow/issues) or email Dr. Haris Zafeiropoulos ([haris.zafeiropoulos@kuleuven.be](mailto:haris.zafeiropoulos@kuleuven.be))
+
+With respect to EMO BON protocos, samples, analyses you may contact the Observation, Data and Service Development Officer of EMBRC, Dr. Ioulia Santi ([ioulia.santi@embrc.eu](mailto:ioulia.santi@embrc.eu))
+
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
