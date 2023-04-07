@@ -15,22 +15,22 @@ In the following diagram is an overview of the metaGOflow steps:
 <!-- As long as our sequences seem good enough, we can investigate the taxonomic inventories returned, based on the SSU and the LSU rRNA genes.  -->
 
 Here we show visual components accompanying the [metaGOflow publication](). 
-Among the samples of this use case, a TARA OCEAN sample of size similar to the EMO BON data was analysed. 
+Along with the EMO BON samples included in this use case, a TARA OCEAN sample of size similar to the EMO BON data was analysed. 
 <!-- We performed all steps of metaGOflow for a marine sediment (ERR) and a water column (ERR) sample.  -->
-A quality control report, the taxonomic inventories as well as some of the functional annotations returned in each case are displayed below.
+A quality control report, the taxonomic inventories as well as some of the functional annotations returned in each case are displayed here.
 metaGOflow also returned the assemblies of the samples. 
 You can find all the input-output files along with the RO-crates produced by metaGOflow for those 2 samples under this [Zenodo repository]().
 <!-- remember to update when zenodo ready -->
 
 
-* [Here](./tara_ocean.md) is an overview on the metaGOflow data products when using the TARA OCEANS sample
-
-
 * [Here](./marine-sediment.html) are parts of the metaGOflow data products for the EMO BON **marine sediment**. 
 
-* Last, [here](./water-column.html) are again parts of the metaGOflow data products for the EMO BON **water column** sample.
+* [Here](./water-column.html) are again parts of the metaGOflow data products for the EMO BON **water column** sample.
 
-> The complete data products of the last 2 cases will be displayed as such by the time the embargo of the raw data is over (September 2023).
+* Last, [here](./tara_ocean.md) is an overview on the metaGOflow data products when using the TARA OCEANS sample
+
+
+<!-- > The complete data products of the last 2 cases will be displayed as such by the time the embargo of the raw data is over (September 2023). -->
 
 <br>
 

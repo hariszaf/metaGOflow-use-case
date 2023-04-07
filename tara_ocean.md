@@ -5,9 +5,9 @@ layout: default
 ## TARA OCEANS sample 
 
 Marine, surface layer water
+* Study accession number: [PRJEB1787](https://www.ebi.ac.uk/ena/browser/view/PRJEB1787)
 * Sample accession number: [ERS490265](https://www.ebi.ac.uk/ena/browser/view/ERS490265)
 * Run accession number: [ERR599171](https://www.ebi.ac.uk/ena/browser/view/ERR599171)
-* Study accession number: [PRJEB1787](https://www.ebi.ac.uk/ena/browser/view/PRJEB1787)
 
 
 ### Quality control
